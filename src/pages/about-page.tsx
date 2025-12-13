@@ -32,7 +32,7 @@ function About() {
         </div>
         <a
           href="https://drive.google.com/file/d/1ZROOwJjAEkRqmTxM6YbUHs4BT1CdUQQ-/view?usp=drive_link"
-          className="text-sm underline"
+          className="text-sm underline decoration-[#006DAA]"
         >
           resume
         </a>

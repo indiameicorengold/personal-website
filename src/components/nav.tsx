@@ -11,7 +11,7 @@ function Nav() {
             <NavLink to="/projects">projects</NavLink>
             {/* <NavLink to="/blog">blog</NavLink> */}
           </div>
-          <div className="self-start w-full sm:w-[500px] lg:w-[700px] mb-10">
+          <div className="self-start w-full sm:w-[500px] lg:w-[750px] mb-10">
             {/* <div className="w-3/9 outline"> */}
             <Outlet />
           </div>
