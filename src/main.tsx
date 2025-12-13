@@ -8,6 +8,9 @@ import About from "./pages/about-page.tsx";
 import Nav from "./components/nav.tsx";
 import Projects from "./pages/projects-page.tsx";
 import Blog from "./pages/blog-page.tsx";
+import Dabble from "./pages/dabble.tsx";
+import SerreLab from "./pages/serrelab.tsx";
+import DFG from "./pages/dfg.tsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +29,18 @@ const router = createBrowserRouter([
       {
         path: "blog",
         element: <Blog />,
+      },
+      {
+        path: "dabble",
+        element: <Dabble />,
+      },
+      {
+        path: "serrelab",
+        element: <SerreLab />,
+      },
+      {
+        path: "dfg",
+        element: <DFG />,
       },
     ],
   },
